@@ -16,4 +16,6 @@ const blogs = [
         content: "Full content of the blog post..."
     }
 
+
+    
 ];
