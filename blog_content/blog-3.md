@@ -44,7 +44,7 @@ My Feature Based Architecture/
 │   │   └── ShoppingCartRepository/
 │   │       └── ShoppingCartRepository.cs
 │   ├── Data/
-│   │   └── dBContext.cs
+│   │   └── DBContext.cs
 │   ├── Models/
 │   │   ├── DTOs/
 │   │   │   ├── UserModelDTO.cs
