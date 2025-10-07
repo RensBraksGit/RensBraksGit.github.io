@@ -20,4 +20,4 @@ And with that the image was able to load properly:
 <img src="assets/images/blog1screenshot5.png" alt="Screenshot" style="width: 100%;  height: auto; display: block; margin: 0 auto;">
 
 ### Final Note
-I know this isn't the most exciting blog, but time was ticking haha.
+I know this isn't the most exciting blog, but time was ticking haha. 
