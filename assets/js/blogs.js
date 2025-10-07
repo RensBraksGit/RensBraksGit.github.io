@@ -2,7 +2,7 @@ const blogs = [
             {
         id: 3,
         title: "My Journey with Feature-Based C# API Structure",
-        image: "assets/images/logoc#.png",
+        image: "assets/images/folder.jpg",
         description: "My Folder Structure Approach",
         datePublished: "2025-10-07",
         content: "Full content of the blog post..."
