@@ -39,9 +39,9 @@ My Feature Based Architecture/
 │   │       │   └── ShoppingCartValidation.cs
 │   │       └── ShoppingCartService.cs
 │   ├── Repositories/
-│   │   ├── Entity A/
+│   │   ├── UserRepository/
 │   │   │   └── UserRepository.cs
-│   │   └── Entity B/
+│   │   └── ShoppingCartRepository/
 │   │       └── ShoppingCartRepository.cs
 │   ├── Data/
 │   │   └── dBContext.cs
