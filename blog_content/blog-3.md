@@ -1,4 +1,4 @@
-# 🏗️ My Journey with Feature-Based C# API Structure
+# 🏗️ My Journey with folder structure in C# API Structure
 
 **Published on:** 2025-10-07  
 **Tags:** C#, Architecture Exploration, Feature-Based Design, ASP.NET Core, Learning  
@@ -7,22 +7,12 @@
 
 I've been experimenting with different ways to organize my C# ASP.NET Core API projects, and I wanted to share an approach that's been working well for me lately. This isn't meant to be the definitive way to structure APIs - just one developer's experience with feature-based organization that might spark some ideas for your own projects.
 
-## 🤔 What Led Me Here
-
-I found myself struggling with traditional layered architecture in some of my projects:
-- Logic felt scattered across multiple folders
-- It took time to navigate when working on specific features
-- Some components seemed more coupled than I'd like
-- Testing felt more complex than it needed to be
-
-So I started experimenting with organizing code around business features rather than technical layers, and it's been an interesting journey.
-
 ## 🏛️ The Structure I've Been Trying
 
 Here's what I've settled on for now - though I'm sure it'll evolve as I learn more:
 
 ```
-My Feature Based Architecture/
+My Architecture/
 ├── API Project/
 │   ├── Controllers/
 │   │   ├── Entity A (User)/
@@ -73,7 +63,7 @@ My Feature Based Architecture/
 ## 🔍 What I Like About This Approach
 
 **Grouping Controllers by Feature**
-Instead of having all controllers in one big folder, I've been grouping them by what they handle. It helps me find things faster, though I'm still figuring out the best way to handle shared functionality.
+Instead of having all controllers in one big folder, I've been grouping them by what they handle.
 
  **Services with Separate Validation**
 I've started putting validation in its own subfolder within each service area. It feels cleaner to me, though I know some developers prefer different approaches to validation.
@@ -85,13 +75,7 @@ This has been working well for me so far - each entity gets its own repository. 
 ## 🧪 My Testing Approach
 
 I've been trying to mirror the main project structure in my tests:
-- Feature-based organization seems to help me locate tests
 - Testing each layer separately has been working for me
-
-### Things that seem to work well:
-- **Finding code faster** when working on specific features
-- **Changes feel more contained** within feature boundaries
-- **Testing** feels more straightforward with clear dependencies
 
 
 ## 🤔 Your Thoughts?

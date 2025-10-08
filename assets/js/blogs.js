@@ -1,7 +1,7 @@
 const blogs = [
             {
         id: 3,
-        title: "My Journey with Feature-Based C# API Structure",
+        title: "My Folder structure in my C# API Projects",
         image: "assets/images/folder.jpg",
         description: "My Folder Structure Approach",
         datePublished: "2025-10-07",
